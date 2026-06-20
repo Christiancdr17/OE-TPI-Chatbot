@@ -1,0 +1,11 @@
+id,categoria,sintoma_clave,solucion,prioridad
+1,red,sin_internet,"1. Verificar cable de red o WiFi. 2. Reiniciar el router. 3. Ejecutar 'ipconfig /release' y 'ipconfig /renew'. 4. Reiniciar el equipo.",Alta
+2,red,lento,"1. Cerrar aplicaciones en segundo plano. 2. Verificar uso de ancho de banda. 3. Reiniciar adaptador de red.",Media
+3,impresora,no_imprime,"1. Verificar que la impresora esté encendida y en línea. 2. Limpiar la cola de impresión. 3. Reinstalar el controlador.",Media
+4,impresora,papel_atascado,"1. Apagar la impresora. 2. Retirar el papel con cuidado. 3. Encender y probar.",Baja
+5,sistema,lento,"1. Reiniciar el equipo. 2. Verificar uso de CPU/RAM en el Administrador de Tareas. 3. Ejecutar análisis de virus.",Alta
+6,sistema,pantalla_azul,"1. Anotar el código de error. 2. Reiniciar en modo seguro. 3. Ejecutar 'sfc /scannow'.",Alta
+7,acceso,contrasena_olvidada,"1. Solicitar restablecimiento al administrador del dominio. 2. Validar identidad del usuario. 3. Emitir contraseña temporal.",Alta
+8,acceso,sin_permisos,"1. Verificar grupo de seguridad del usuario. 2. Contactar al administrador para asignar permisos.",Media
+9,correo,no_llegan,"1. Revisar carpeta de spam. 2. Verificar reglas de correo. 3. Comprobar cuota del buzón.",Baja
+10,correo,no_envia,"1. Verificar conexión a internet. 2. Revisar configuración del servidor SMTP. 3. Comprobar autenticación.",Media
